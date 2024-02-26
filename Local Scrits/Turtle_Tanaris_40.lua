@@ -1273,7 +1273,7 @@ Bot:SetStart(function()
             --贩卖颜色等级0~8
             SellLevel = {[0] = true,[1] = true,[2] = true,},
             --不贩卖列表 
-            DoNotSellList = {'Rune of','传送','Hearthstone','炉石','Skinning Knife','剥皮小刀','Mining Pick','矿工锄','Primal','源生','Mote of','微粒','Air','空气','基尔加丹印记',"Mark of Kil'jaeden","Thieves'Tools",'潜行者工具','Flash Powder','闪光粉'},
+            DoNotSellList = {'Rune of','传送','Hearthstone','炉石','Skinning Knife','剥皮小刀','Mining Pick','矿工锄','Primal','源生','Mote of','微粒','Air','空气','基尔加丹印记',"Mark of Kil'jaeden","Thieves'Tools",'潜行者工具','Flash Powder','闪光粉','Turtle Scale','Turtle Meat','Thick Leather','Heavy Hide','Thick Hide','Black Pearl','Golden Pearl','Silksand Circlet'},
             --强制贩卖列表 如果需要可以自行添加
             --ForceSellList = {},
             --强制销毁
