@@ -1253,7 +1253,7 @@ Bot:SetStart(function()
             --开启使用坐骑
             UseMount=true,
             --不走水路,假是不走水路,真是走水路
-            WalkWater =false,
+            WalkWater =true,
             --自动拾取
             AutoLoot = true,
             --勾选后，所有食物都吃,把包内食物/饮料吃完才会触发回城，不用设定FoodName与DrinkName
