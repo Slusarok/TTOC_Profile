@@ -9,7 +9,7 @@ SC = TTOC
 local text = {
       {Log='Info',Text="初始化战斗循环"},
       {If = "SC:GetPlayer().Class=='MAGE'",End = '法师不售卖' },
-      {Settings = 'DoNotSellList', value = {'Rune of','传送','Hearthstone','炉石','Mining Pick','矿工锄','Skinning Knife','剥皮小刀','Primal','源生','Mote of','微粒','Air','空气','基尔加丹印记',"Mark of Kil'jaeden","Thieves'Tools",'潜行者工具','Flash Powder','闪光粉',,'Thundering Charm','Elemental Air','Aquamarine','Large Knapsack','Jade'}},
+      {Settings = 'DoNotSellList', value = {'Rune of','传送','Hearthstone','炉石','Mining Pick','矿工锄','Skinning Knife','剥皮小刀','Primal','源生','Mote of','微粒','Air','空气','基尔加丹印记',"Mark of Kil'jaeden","Thieves'Tools",'潜行者工具','Flash Powder','闪光粉','Thundering Charm','Elemental Air','Aquamarine','Large Knapsack','Jade'}},
       {End = "法师不售卖"},
 
       {If = "SC:GetPlayer().Class == 'ROGUE' or SC:GetPlayer().Class == 'WARRIOR'",End = '近战不售卖' },
